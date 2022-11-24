@@ -409,12 +409,12 @@ footer h4{
         margin-top: -30px !important;
     }
     .first-content h1{
-        font-size: 30px !important;
+        font-size: 20px !important;
         line-height: 0px !important;
         margin: 0 !important;
-        width: 120% !important;
+        /* width: 120% !important; */
         margin-top: 30px !important;
-        margin-left: -20px !important;
+        margin-left: -100px !important;
     }
     .first-content #para{
         text-align: left;
