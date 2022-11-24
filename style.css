@@ -36,9 +36,8 @@ ul li{
     font-weight: 600;
 }
 .first-sec{
-    background-image:url(images/BAN.jpg);
-    height: 89vh;
-    /* background-attachment: fixed; */
+    background-image:url(./Images/BAN.jpg);
+    height: 90vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -414,8 +413,9 @@ footer h4{
         margin-left: -120px !important;
     }
     .first-content #para{
-        /* text-align: left; */
-        font-weight: 600 !important;
+        text-align: left;
+        font-size: 15px !important;
+        font-weight: 500 !important;
         margin-top: 30px !important;
         width: 90% !important;
         letter-spacing: 0 !important;
