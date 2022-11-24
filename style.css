@@ -188,10 +188,9 @@ a{
     width: 230px;
     height: 260px;
     margin-right: 20px;
-    box-shadow: 10px  black;
     background-color: white;
-    border-radius: 10px;
-    box-shadow: 1px 1px 24px 0 rgba(0,0,0,0.1);
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
 
 }
 .one:hover{ 
@@ -327,8 +326,70 @@ a{
     margin-right: 30px;
     margin-left: 30px;
 }
-.sixth{
+
+/*  */
+footer{
+    background-color: #21283B;
     height: 100vh;
-    
-    
+    color: white;
+}
+.foot img{
+    height: 90px;
+    width: 300px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+
+}
+.foot{
+    margin-top: 150px;
+    justify-content: space-between;
+}
+.foot li{
+    display: block;
+
+}
+.foot li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.2s ease-in;
+}
+.foot li a:hover{
+    color: #ED7E2C;
+}
+span{
+    color: #ED7E2C;
+}
+.foot .bx{
+    color: #ED7E2C;
+
+}
+.foot i{
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.foot p{
+    color: white;
+    margin-left: 15px;
+    transition: 0.2s ease;
+}
+.foot a{
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    font-size: 20px;
+    transition: 0.2s ease;
+
+}
+footer h4{
+    justify-self: baseline;
+    margin-top: 100px;
+
+}
+.foot a:hover{
+    color: #ED7E2C;
+}
+.lol{
+    justify-content: space-between;
 }
