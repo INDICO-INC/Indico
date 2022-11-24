@@ -38,8 +38,10 @@ ul li{
 .first-sec{
     background-image:url(images/BAN.jpg);
     height: 89vh;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     position: relative;
   
 }
@@ -59,15 +61,12 @@ ul li{
     position: relative;
     color: #fff;
 }
-.first-content p{
+.first-content #para{
     font-size: 18px;
-    line-height: 30px;
     font-weight: 400;
-    letter-spacing: 1px;
     color: #fff;
-    display: block;
-    width: 700px;
-    margin: auto;
+    width: 70%;
+    margin-left: 14%;
 }
 .first-content h1{
     font-size: 54px;
@@ -393,3 +392,56 @@ footer h4{
 .lol{
     justify-content: space-between;
 }
+
+@media screen and (max-width: 768px)  {
+    nav img{
+        width: 90px !important;
+        height: 60px !important ;
+        margin-left: -25px !important;
+    }
+    .first-content p{
+        /* width: 100% !important; */
+        font-size: 20px !important;
+        margin-left: -30px !important;
+        margin-top: -30px !important;
+    }
+    .first-content h1{
+        font-size: 20px !important;
+        line-height: 0px !important;
+        margin: 0 !important;
+        width: 150% !important;
+        margin-top: 30px !important;
+        margin-left: -120px !important;
+    }
+    .first-content #para{
+        /* text-align: left; */
+        font-weight: 600 !important;
+        margin-top: 30px !important;
+        width: 90% !important;
+        letter-spacing: 0 !important;
+        margin-left: 5px !important;
+    }
+ 
+    .navbar-nav{
+        margin: 0 !important;
+        margin-left: -45px !important;
+    }
+    .first-buttons{
+        margin-left: -23px !important;
+    }
+    .two{
+        display: none;
+    }
+    .third{
+        display: none;
+    }
+    .fourth{
+        display: none;
+    }
+    .fifth{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+}  
