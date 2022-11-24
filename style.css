@@ -116,9 +116,9 @@ a{
     height: 100vh;
     
 }
-/* .two{
-    background-color:#f6f7f8 ;
-} */
+.two{
+    background-color: rgb(255, 249, 245);
+}
 
 .two-content{
     text-align: center;
@@ -129,11 +129,11 @@ a{
 }
 .two-content h1{
     font-size: 40px;
-    color: #007ADF;
+    /* color: #007ADF; */
     line-height: 80px;
 }
 .two-content p{
-    color: rgba(0, 122, 223, 0.5);
+    /* color: rgba(0, 122, 223, 0.5); */
     font-size: 20px
 }
 .service-nb {
@@ -148,7 +148,7 @@ a{
     font-weight: 600;
 }
 .row-content h3{
-    color: #007ADF;
+    /* color: #007ADF; */
     font-size: 24px;
     padding-top: 18px;
     padding-right: 5px;
@@ -169,7 +169,7 @@ a{
 .third{
     margin-top: 50px;
     height:85vh;
-    background-image: url(Images/background-three.png);
+    background-image: url(./Images/background-three.png);
     background-size: cover;
 
 }
@@ -192,7 +192,7 @@ a{
 
 }
 .one:hover{ 
-    background-image: url(Images/background-three.png);
+    background-image: url(./Images/background-three.png);
    
     
 }
@@ -393,24 +393,29 @@ footer h4{
 }
 
 @media screen and (max-width: 768px)  {
+    .navbar{
+        margin: 0 !important;
+        margin-left: 20px !important;
+    }
     nav img{
         width: 90px !important;
         height: 60px !important ;
+        margin-top: 5px !important;
         margin-left: -25px !important;
     }
     .first-content p{
         /* width: 100% !important; */
-        font-size: 20px !important;
+        font-size: 35px !important;
         margin-left: -30px !important;
         margin-top: -30px !important;
     }
     .first-content h1{
-        font-size: 20px !important;
+        font-size: 30px !important;
         line-height: 0px !important;
         margin: 0 !important;
-        width: 150% !important;
+        width: 120% !important;
         margin-top: 30px !important;
-        margin-left: -120px !important;
+        margin-left: -80px !important;
     }
     .first-content #para{
         text-align: left;
@@ -419,29 +424,102 @@ footer h4{
         margin-top: 30px !important;
         width: 90% !important;
         letter-spacing: 0 !important;
-        margin-left: 5px !important;
+        margin-left:8px !important;
     }
  
     .navbar-nav{
         margin: 0 !important;
-        margin-left: -45px !important;
+        margin-left: -40px !important;
     }
     .first-buttons{
-        margin-left: -23px !important;
+        margin-top: 80px !important;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px !important;
+    }
+    #sec-bth{
+        margin-top: 30px !important;
     }
     .two{
-        display: none;
+        /* display: none; */
+        height: 230vh;
+    }
+    .two-content h1{
+        padding-top: 90px !important;
     }
     .third{
-        display: none;
+        /* display: none; */
+        height: 220vh;
+    }
+    .third-comments p{
+        width: 90%;
+        font-size: 15px;
+    }
+    .third-comments h1{
+        color: black !important;
+    }
+    .one{
+        margin-top: 40px !important;
     }
     .fourth{
+        /* display: none; */
+    }
+    .fourth-grid{
+        display: flex;
+        flex-direction: column;
+    }
+    .background-text{
+       box-shadow: none;
+       background: none;
+    }
+    .background-text p{
+        width: 40% !important;
+    }
+    .bot img{
+        height: 100px !important;
+        margin-top: -280px !important;
+        margin-left: -110px !important;
         display: none;
     }
+    .first-part p, .first-part h6{
+        margin-left: -40px !important;
+        width: 55%;
+        font-size: 10px !important;
+    }
+    .chairman img{
+        margin-top: -40px !important;
+        margin-left: -60px !important;
+    }
+    .texts-chairman h5{
+        margin-top: -39px !important;
+    }
+    #chair{
+        margin-left: 2px !important;
+    }
     .fifth{
+        /* display: none; */
+    }
+
+    .fifth-grid{
+        display: flex;
+        flex-direction: column;
+    }
+    .fifth-form{
+        /* display: none; */
+        width: 90%;
+        height: 50%;
+        margin-left: 23px !important;
+        margin-top: -20px !important;
+    }
+    .fifth img{
         display: none;
+        height: 400px !important;
+        padding: 0 !important;
+        margin-left: -350px !important;
     }
     footer{
         display: none;
+        /* height: 150vh; */
     }
 }  
