@@ -167,8 +167,7 @@ a{
 }
 /* -------------------- */
 .third{
-    margin-top: 50px;
-    height:85vh;
+    height:100vh;
     background-image: url(./Images/background-three.png);
     background-size: cover;
 
@@ -415,7 +414,7 @@ footer h4{
         margin: 0 !important;
         width: 120% !important;
         margin-top: 30px !important;
-        margin-left: -80px !important;
+        margin-left: -20px !important;
     }
     .first-content #para{
         text-align: left;
@@ -443,7 +442,7 @@ footer h4{
     }
     .two{
         /* display: none; */
-        height: 230vh;
+        height: 270vh;
     }
     .two-content h1{
         padding-top: 90px !important;
